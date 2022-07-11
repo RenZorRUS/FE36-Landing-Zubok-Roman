@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.heading {
+    margin: 80px 0 70px;
+}
+
+.heading__main-text {
+    width: 410px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    margin: 0 auto 35px;
+}
+
+.heading__bottom-line {
+    width: 65px;
+    border-bottom: 2px solid #E72424;
+    margin: 0 auto 35px;
+}
+
+.heading__description {
+    width: 365px;
+    margin: auto;
+}
+
+.heading__description p {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #86878B;
+}
+
+.card {
+    margin-bottom: 95px;
+}
+
+.card__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-item {
+    width: 350px;
+    height: 225px;
+    padding-bottom: 20px;
+}
+
+.card-item__img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item__title {
+    margin: 0 auto 15px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-item__text {
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: center;
+}
