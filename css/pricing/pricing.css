@@ -46,9 +46,7 @@
 }
 
 .price-plan-benefits-list {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 340px;
+    width: 340px;
     margin: 0 15px;
 }
 
