@@ -40,11 +40,14 @@
 
 .card__wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
 
 .card-item {
     width: 350px;
+    margin: 0 15px;
 }
 
 .card-item__img {
